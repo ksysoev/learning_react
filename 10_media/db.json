@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe"
+    },
+    {
+      "id": "6788",
+      "name": "Cynthia Ruecker"
+    },
+    {
+      "id": "802f",
+      "name": "Noel Kohler"
+    },
+    {
+      "id": "c54f",
+      "name": "Margarita Altenwerth"
+    },
+    {
+      "id": "803a",
+      "name": "Erick Dare"
+    },
+    {
+      "id": "52ae",
+      "name": "Eleanor Doyle Jr."
+    }
+  ],
+  "albums": [],
+  "photos": []
+}
