@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { fetchUsers, addUser } from "../store";
 import useThunk from "../hooks/use-thunk";
 import Button from "./Button";
@@ -7,8 +7,6 @@ import Skeleton from "./Skeleton";
 import UsersListItem from "./UsersListItem";
 
 function UsersList() {
-    const dispatch = useDispatch();
-
     const [doFetchUsers, isLoadingUsers, loadingUsersError] = useThunk(fetchUsers);
     const [doAddUser, isCreatingUser, creatingUserError] = useThunk(addUser);
 

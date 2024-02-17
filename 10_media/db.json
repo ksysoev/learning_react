@@ -5,10 +5,6 @@
       "name": "John Doe"
     },
     {
-      "id": "6788",
-      "name": "Cynthia Ruecker"
-    },
-    {
       "id": "802f",
       "name": "Noel Kohler"
     },
@@ -25,6 +21,68 @@
       "name": "Eleanor Doyle Jr."
     }
   ],
-  "albums": [],
-  "photos": []
+  "albums": [
+    {
+      "id": "d1d7",
+      "userId": null,
+      "title": "Sleek Concrete Shoes"
+    },
+    {
+      "id": "df8d",
+      "userId": "802f",
+      "title": "Awesome Soft Ball"
+    },
+    {
+      "id": "d386",
+      "userId": "803a",
+      "title": "Awesome Cotton Chair"
+    },
+    {
+      "id": "fcef",
+      "userId": "52ae",
+      "title": "Oriental Granite Keyboard"
+    },
+    {
+      "id": "45e7",
+      "userId": "802f",
+      "title": "Refined Granite Shirt"
+    },
+    {
+      "id": "9f08",
+      "userId": "802f",
+      "title": "Sleek Metal Pizza"
+    },
+    {
+      "id": "f0f2",
+      "userId": 1,
+      "title": "Elegant Bronze Bike"
+    },
+    {
+      "id": "8319",
+      "userId": "c54f",
+      "title": "Tasty Concrete Chicken"
+    },
+    {
+      "id": "f79d",
+      "userId": "c54f",
+      "title": "Refined Steel Fish"
+    }
+  ],
+  "photos": [
+    {
+      "id": "c63e",
+      "albumId": "f0f2",
+      "url": "https://loremflickr.com/150/150/abstract?lock=97274"
+    },
+    {
+      "id": "0fbe",
+      "albumId": "f0f2",
+      "url": "https://loremflickr.com/150/150/abstract?lock=49487"
+    },
+    {
+      "id": "8a47",
+      "albumId": "f0f2",
+      "url": "https://loremflickr.com/150/150/abstract?lock=10242"
+    }
+  ]
 }
